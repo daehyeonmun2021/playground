@@ -1,1 +1,1 @@
-status: published
+status: catalog
