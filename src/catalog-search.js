@@ -1,1 +1,1 @@
-export const search = (entries, word) => entries.filter((entry) => entry.includes(word));
+export const search = (entries, word) => entries.filter((entry) => entry.includes(word)).sort();
