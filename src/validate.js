@@ -5,7 +5,7 @@ export function validate(input) {
   if (input.length > 80) problems.push("too long");
   if (/\s{2,}/.test(input)) problems.push("double spaces");
   if (input !== input.trim()) problems.push("untrimmed");
-  return problems;
+  return problems.sort();
 }
 
 export const isValid = (input) => validate(input).length === 0;
