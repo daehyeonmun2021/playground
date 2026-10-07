@@ -1,1 +1,1 @@
-export const trim = (text) => text.trim();
+export const trim = (text) => text.replace(/^[ \t]+|[ \t]+$/g, "");
