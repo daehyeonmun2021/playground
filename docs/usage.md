@@ -1,9 +1,9 @@
 # Usage
 
-## Install
+## Installing
 
 Copy the files.
 
-## Use
+## Using
 
 Call `greet`.
